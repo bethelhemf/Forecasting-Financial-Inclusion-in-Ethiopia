@@ -1,0 +1,23 @@
+# Data Manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0  # Required for reading/writing .xlsx files
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0   # For interactive EDA and timelines
+nbformat>=5.9.0  # Required for plotly in Jupyter notebooks
+
+# Statistical Analysis & Forecasting (For Tasks 3 & 4)
+scipy>=1.10.0
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+prophet>=1.1.0   # Powerful for sparse time-series forecasting
+
+# Dashboard (For Task 5)
+streamlit>=1.25.0
+
+# Environment & Utilities
+python-dotenv
+ipykernel
